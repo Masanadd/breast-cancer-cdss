@@ -1,0 +1,28 @@
+# Entornos virtuales
+.venv/
+.venv_hf/
+env/
+
+# Cachés y archivos temporales
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.tmp
+*.bak
+
+# VSCode
+.vscode/
+
+# Datos generados (opcional si los regeneras con código)
+cache/
+data/chunks.jsonl
+data/embeddings.jsonl
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración sensible
+.env
+
